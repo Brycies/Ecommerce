@@ -1,0 +1,16 @@
+.purchase {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product {
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-buttons {
+  font-size: 13px;
+  border: none;
+  border-width: none;
+  color: rgb(66, 60, 60);
+
+  background-color: white;
+}
