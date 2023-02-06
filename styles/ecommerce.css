@@ -1,3 +1,12 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
 .option {
   background-color: grenyellow;
   padding: 20px;
@@ -46,6 +55,8 @@
   width: 20px;
 }
 .shoes {
+  object-fit: cover;
+  width: 365px;
   margin-top: 30px;
   margin-left: 170px;
   width: 400px;
@@ -56,23 +67,112 @@
   flex-direction: column;
 }
 .shoe-infor {
-  background-color: green;
   margin-left: 170px;
-  float: right;
+  margin-top: 0px;
 }
 .image-shoe {
+  display: flex;
+  flex-direction: column;
 }
 .header {
   font-size: 12px;
   color: orangered;
+  float: right;
+  margin-top: -320px;
+  margin-right: 600px;
 }
 .brand {
   font-size: 40px;
-  font-weight: 1000px;
+  font-weight: bold;
   width: 440px;
   height: 40px;
+  float: right;
+  margin-top: -280px;
+  margin-right: 300px;
 }
 .infor {
+  font-size: 13px;
   margin-top: 20px;
-  width: 500px;
+  width: 400px;
+  float: right;
+  color: grey;
+  margin-top: -160px;
+  margin-right: 340px;
+}
+.current-price {
+  font-weight: bolder;
+  float: right;
+  color: grey;
+  margin-top: -90px;
+  margin-right: 670px;
+}
+.former-price {
+  font-size: 10px;
+  float: right;
+  color: grey;
+  margin-top: -50px;
+  margin-right: 700px;
+}
+.discount {
+  font-size: 11px;
+  float: right;
+  color: orangered;
+  margin-top: -85px;
+  margin-right: 620px;
+}
+.minus {
+  float: right;
+  margin-top: -10px;
+  margin-right: 695px;
+  width: 35px;
+  height: 35px;
+}
+.zero {
+  float: right;
+  margin-top: -35px;
+  margin-right: 660px;
+  width: 35px;
+  height: 35px;
+}
+.plus {
+  float: right;
+  margin-top: -35px;
+  margin-right: 625px;
+  width: 35px;
+  height: 35px;
+}
+.cart-button {
+  border-radius: 8px;
+  color: white;
+  background-color: hsl(26, 100%, 55%);
+  width: 250px;
+  height: 40px;
+  font-size: 16px;
+  float: right;
+  margin-top: -38px;
+  margin-right: 340px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.cart-image {
+  width: 14px;
+  margin-right: 10px;
+}
+.image-product {
+  margin-left: 155px;
+}
+.thumbnail {
+  width: 70px;
+  margin-left: 20px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+.thumbnail-1 {
+  width: 70px;
+  color: hsl(25, 100%, 94%);
+  margin-left: 20px;
+  border-radius: 7px;
+  margin-right: 10px;
+  border-color: green;
 }
